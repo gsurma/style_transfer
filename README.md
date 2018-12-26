@@ -16,7 +16,7 @@ Style Transfer is a process in which we strive to modify the style of an image w
 # How does it work?
 1. We take input image and style images and resize them to equal shapes.
 2. We load a pre-trained CNN (VGG16).
-3. Knowing that low-level layers are responsible for the style (basic shapes, colors etc.) and the high-level ones are responsible for the content (image-specific features), we can separate the layers to independently work on the content and style.
+3. Knowing that we can distinguish layers that are responsible for the style (basic shapes, colors etc.) and the ones responsible for the content (image-specific features), we can separate the layers to independently work on the content and style.
 4. Then we set our task as an optimization problem where we are going to minimize:
 	* **content loss** (distance between the input and output images - we strive to preserve the content)
 	* **style loss** (distance between the style and output images - we strive to apply a new style)
@@ -25,21 +25,45 @@ Style Transfer is a process in which we strive to modify the style of an image w
 
 # Results
 
-**Input** 
+## Input
+
 <h3>
   <img src="assets/input.png" width="500">
 </h3>
 
----
 
-**Style** 
+## Style
+ 
 <h3>
   <img src="assets/style.png" width="500">
 </h3>
 
----
 
-**Output** 
+## Output
+
+### 1 iteration
 <h3>
-  <img src="assets/output.png" width="500">
+  <img src="assets/1.png" width="500">
+</h3>
+
+### 2 iterations
+<h3>
+  <img src="assets/2.png" width="500">
+</h3>
+
+### 5 iterations
+<h3>
+  <img src="assets/5.png" width="500">
+</h3>
+
+### 10 iterations
+ 
+<h3>
+  <img src="assets/10.png" width="500">
+</h3>
+
+### 15 iterations
+ 
+<h3>
+  <img src="assets/15.png" width="500">
 </h3>
