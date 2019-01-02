@@ -67,3 +67,21 @@ Style Transfer is a process in which we strive to modify the style of an image w
 <h3>
   <img src="assets/15.png" width="500">
 </h3>
+
+## Other examples
+
+<h3>
+  <img src="assets/examples/naish.png" width="500">
+</h3>
+
+<h3>
+  <img src="assets/examples/sf.png" width="500">
+</h3>
+
+<h3>
+  <img src="assets/examples/boston.png" width="500">
+</h3>
+
+<h3>
+  <img src="assets/examples/dolores.png" width="500">
+</h3>
