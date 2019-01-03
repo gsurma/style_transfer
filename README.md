@@ -21,7 +21,7 @@ Style Transfer is a process in which we strive to modify the style of an image w
 	* **content loss** (distance between the input and output images - we strive to preserve the content)
 	* **style loss** (distance between the style and output images - we strive to apply a new style)
 	* **total variation loss** (regularization - spatial smoothness to denoise the output image)
-5. Finally ,we set our gradients and optimize with the [L-BFGS](https://en.wikipedia.org/wiki/Limited-memory_BFGS) algorithm.
+5. Finally, we set our gradients and optimize with the [L-BFGS](https://en.wikipedia.org/wiki/Limited-memory_BFGS) algorithm.
 
 # Results
 
