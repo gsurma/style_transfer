@@ -9,6 +9,10 @@ Style Transfer is a process in which we strive to modify the style of an image w
 
 [Kaggle kernel](https://www.kaggle.com/greg115/style-transfer)
 
+Check out corresponding Medium article:
+
+[Style Transfer - Styling Images with Convolutional Neural Networks](https://towardsdatascience.com/style-transfer-styling-images-with-convolutional-neural-networks-7d215b58f461)
+
 <h3 align="center">
   <img src="assets/combined.png">
 </h3>
